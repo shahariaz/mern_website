@@ -1,0 +1,62 @@
+.section-registration {
+  max-width: 144rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 80vh;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form {
+  width: 50%;
+  padding: 2rem;
+}
+.regImg {
+  width: 50%;
+}
+.regImg img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+input {
+  width: 40%;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  border-radius: 0.4rem;
+  border: 1px solid #ccc;
+  margin-bottom: 2rem;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #ff4848;
+}
+.heading {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 900;
+  font-family: monospace;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+button {
+  display: block;
+  padding: 1rem 2.3rem;
+  border-radius: 0.7rem;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
