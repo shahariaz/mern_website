@@ -6,14 +6,26 @@
   height: 80vh;
   margin-top: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  flex-wrap: wrap;
+  justify-content: start;
 }
 
-.form {
-  width: 50%;
+.regForm {
+  justify-content: center;
+  width: auto;
+  align-items: center;
   padding: 2rem;
+  align-self: center;
+  flex-grow: 1;
+}
+.data {
+  margin-left: 10rem;
 }
 .regImg {
+  display: flex;
+  align-items: center;
   width: 50%;
+  align-self: center;
 }
 .regImg img {
   width: 80%;
@@ -29,7 +41,7 @@ label {
 }
 
 input {
-  width: 40%;
+  width: 80%;
   padding: 1.2rem;
   font-size: 1.6rem;
   border-radius: 0.4rem;
@@ -39,7 +51,7 @@ input {
 
 input:focus {
   outline: none;
-  border: 1px solid #ff4848;
+  border: 2px solid rgb(153, 185, 255);
 }
 .heading {
   text-align: center;
@@ -54,9 +66,18 @@ button {
   display: block;
   padding: 1rem 2.3rem;
   border-radius: 0.7rem;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(153, 185, 255);
+  transition: width 0.3s linear;
+  color: #fff;
+  width: 80%;
 }
 
 button:hover {
-  background-color: #fff;
+  background-color: rgb(84, 121, 247);
   color: #000;
 }

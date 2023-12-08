@@ -13,6 +13,7 @@ a {
   text-decoration: none;
   color: black;
   color: #f6f6f6;
+  text-transform: uppercase;
 }
 
 a:hover {
